@@ -7,7 +7,7 @@
 
 VERSION=0.1.0
 SUBJECT=hash
-USAGE="Usage: otp_hashkey.sh --package package_name --alias alias_name --keystore keystore_file"
+USAGE="Usage: hash.sh --package package_name --alias alias_name --keystore keystore_file"
 
 # --- Options processing -------------------------------------------
 if [ $# == 0 ] ; then
